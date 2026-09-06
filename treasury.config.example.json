@@ -1,0 +1,51 @@
+{
+  "chain_id": 4663,
+  "factory_address": "0x05eAd7A0b471F640af176bA8EE91f1273EbAe204",
+  "receipt_timeout_seconds": 180,
+  "gas_limit_multiplier_bps": 11500,
+  "max_fee_multiplier_bps": 15000,
+  "max_priority_fee_per_gas_wei": 0,
+  "treasury": {
+    "creator": null,
+    "numeraire": "0x0000000000000000000000000000000000000000",
+    "nonce": null,
+    "distribute_bps": 10000,
+    "epoch_length": 900,
+    "leaf_dust_floor": 0,
+    "asset_catalog": [
+      {
+        "label": "AAPL — Apple",
+        "address": "0xaF3D76f1834A1d425780943C99Ea8A608f8a93f9"
+      },
+      {
+        "label": "CRWV — CoreWeave",
+        "address": "0x5f10A1C971B69e47e059e1dC91901B59b3fB49C3"
+      },
+      {
+        "label": "GLD — SPDR Gold Trust",
+        "address": "0xC9a981FEE1F9DEc688bb123ccDeCc63D0deBFC4e"
+      },
+      {
+        "label": "DJT — Trump Media & Technology Group",
+        "address": "0x1D11f0496982706C5e14A514D4E79F2e6BdE4516"
+      },
+      {
+        "label": "HIMS — Hims & Hers Health",
+        "address": "0xCceE82fE024c36fA15E1005edE3E9e4787e23D09"
+      },
+      {
+        "label": "AMZN — Amazon",
+        "address": "0x12f190a9F9d7D37a250758b26824B97CE941bF54"
+      },
+      {
+        "label": "AMC — AMC Entertainment",
+        "address": "0x05a3d1Cd21d0C88145E82600E62e7E496e0F222B"
+      }
+    ],
+    "assets": [
+      "0x12f190a9F9d7D37a250758b26824B97CE941bF54",
+      "0x05a3d1Cd21d0C88145E82600E62e7E496e0F222B"
+    ],
+    "weights_bps": [5000, 5000]
+  }
+}

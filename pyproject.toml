@@ -1,0 +1,13 @@
+[project]
+name = "treasury-indices-deployer"
+version = "1.0.0"
+description = "Standalone Index Finance treasury deployer for Robinhood Chain."
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+  "web3>=7.16,<8",
+  "python-dotenv>=1.1,<2",
+]
+
+[tool.uv]
+package = false
